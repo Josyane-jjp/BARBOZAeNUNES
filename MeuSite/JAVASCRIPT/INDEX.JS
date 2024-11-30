@@ -7,7 +7,8 @@ function eventoclick(){
     nquartos=document.getElementByIdGetById("nquartos");
     temploc=document.getElementByIdGetByName("PERIODO_LOC");
     cidade=document.getElementByIdGetById("cidade");
-    bairro=document.getElementByIdGetById("bairro");
+    bairro=document.getElementByIdGetById("bairro");  
+}
     if (nome&&CPF&&tel&&nquartos&&temploc&&cidade&&bairro!=""){
         alert("cadastro efetuado com sucesso");
     }
@@ -15,5 +16,3 @@ function eventoclick(){
         alert("cadastro incompleto");
 
     }
-    
-}
